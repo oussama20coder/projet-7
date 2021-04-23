@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prototype calculatrice</title>
+    <script src="calculatrice.js"></script> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container">
+
+    <input type="text" id="afficheur"><br>
+
+    <button class="box box-num" onclick="ClickNumber(1)">1</button>
+    <button class="box box-num" onclick="ClickNumber(2)">2</button>
+    <button class="box box-num" onclick="ClickNumber(3)">3</button>
+    <button class="box box-num" onclick="ClickNumber(4)">4</button>
+    <button class="box box-num" onclick="ClickNumber(5)">5</button>
+    <button class="box box-num" onclick="ClickNumber(6)">6</button>
+    <button class="box box-num" onclick="ClickNumber(7)">7</button>
+    <button class="box box-num" onclick="ClickNumber(8)">8</button>
+    <button class="box box-num" onclick="ClickNumber(9)">9</button>
+    <button class="box box-num" onclick="ClickNumber(0)">0</button>
+    <button class="box box-num" onclick="ClickNumber('.')">.</button>
+    <button class="box box-num" onclick="ClickNumber('.')">.</button>
+
+
+
+    <button class="box box-opr" onclick="Operation('+')">+</button>
+    <button class="box box-opr" onclick="Operation('-')">-</button>
+    <button class="box box-opr" onclick="Operation('*')">x</button>
+    <button class="box box-opr" onclick="Operation('/')">/</button>
+
+    
+    
+    <button class="box box-clear" onclick="Init()">C</button>
+    <button class="box box-reset" onclick="Egale()">=</button>
+</body>
+</html>

@@ -1,0 +1,49 @@
+*
+{
+box-sizing: border-box;
+}
+
+.container 
+{
+ width: 400px;
+ overflow: hidden;
+ margin: 50px auto;   
+}
+.container #afficheur 
+{
+    border: 2px solid #888888;
+    height: 50px ;
+    width: 100%;
+    font-size: 25px; 
+    line-height: 50px;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+.container .box 
+{
+    width: 25%;
+    height: 50px;
+    border: 1px solid #fff ;
+    float: left;
+    font: size 25px;
+    line-height:50px;
+    font-family: sans-serif ;
+    transition: all .25s ease-in-out;
+    text-align:center;
+    background-color: rgb(21, 196, 61);
+    color: white;
+    cursor: pointer;
+}
+.container .box:hover{
+    background-color:cornflowerblue ;
+}
+.container .box-opr {
+    background-color:darkorange;
+}
+.container .box-reset , .container .box-clear {width: 50%;}
+.container .box-reset{
+    background-color:steelblue ;
+}
+.container .box-clear {
+    background-color: red;
+}
